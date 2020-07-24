@@ -20,18 +20,16 @@ gem 'uglifier'
 
 group :development, :test do
   gem "spring"
-  
   gem "foreman"
-
   gem "rubocop", require: false
   gem "ruby-lint", require: false
-
   gem "pry"
   gem "pry-byebug"
   gem "pry-doc"
   gem "pry-rails"
   gem "pry-rescue"
   gem "pry-stack_explorer"
+  gem 'rspec-rails', '~> 4.0', '>= 4.0.1'
 end
 
 group :development do
@@ -42,5 +40,4 @@ group :test do
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-
 end
