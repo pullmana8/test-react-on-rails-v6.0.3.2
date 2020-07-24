@@ -14,15 +14,15 @@ Rails 6.0.3.2
 
 > Configuration
 
-rails new test-react-on-rails --webpack=react
+`rails new test-react-on-rails --webpack=react`
 
-cd test-react-on-rails
+`cd test-react-on-rails`
 
-add gem 'react_on_rails', '~> 12.0', '>= 12.0.1' to Gemfile
+add `gem 'react_on_rails', '~> 12.0', '>= 12.0.1'` to Gemfile
 
 stage and commit your changes
 
-rails generate react_on_rails:install
+`rails generate react_on_rails:install`
 
 > Database creation
 
