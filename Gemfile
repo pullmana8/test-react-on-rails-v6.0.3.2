@@ -20,6 +20,7 @@ gem 'uglifier'
 
 group :development, :test do
   gem "spring"
+  gem "spring-commands-rspec"
   gem "foreman"
   gem "rubocop", require: false
   gem "ruby-lint", require: false
